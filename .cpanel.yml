@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/blddxvid/public_html/
+    - /bin/cp -R images $DEPLOYPATH
